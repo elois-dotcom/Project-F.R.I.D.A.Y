@@ -69,7 +69,7 @@ Enterprises need identity-threat detection **inside the data layer**, where it c
 
 ## System Overview
 
- ![FRIDAY business process diagram](image/F.R.I.D.A.Y.drawio (1).png)
+ ![FRIDAY business process diagram](image/friday.png)
 
 ---
 

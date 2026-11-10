@@ -69,18 +69,7 @@ Enterprises need identity-threat detection **inside the data layer**, where it c
 
 ## System Overview
 
-```mermaid
-flowchart LR
-    A[Login attempt<br/>e.g. after-hours] --> B[log_auth_event]
-    B --> C[calculate_risk_score<br/>dynamic 0-100]
-    C -->|below threshold| D[(Auth_Logs)]
-    C -->|critical| E[(Security_Alerts)]
-    E --> F{{trg_quarantine_account}}
-    F --> G[Employees.account_status = LOCKED]
-    F --> H[(Quarantined_Accounts)]
-    B --> I[(Audit_Log)]
-    J[DBMS_SCHEDULER 23:59] --> K[Daily threat summary<br/>+ IP subnet flags<br/>+ alert archiving]
-```
+ ![FRIDAY business process diagram](image/fir.png)
 
 ---
 

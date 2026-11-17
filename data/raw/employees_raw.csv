@@ -1,0 +1,21 @@
+device_id,username,department,office
+D001,jsmith,Marketing,East-170
+D002,ajonson,Sales,North-110
+D003,mjohnson,IT,West-200
+D004,bwilson,Finance,Central-300
+D005,kchen,HR,South-050
+D006,dmarquez,Marketing,east 170
+D007,lpadilla,Sales,North-110
+D008,tnguyen,IT,West-200
+D009,erobinson,Finance,Central-300
+D010,cgarcia,HR,South-050
+D011,apatel,Marketing,East-170
+D012,schoi,Sales,North-110
+D013,mkowalski,IT,West-200
+D014,rdavis,Finance,Central-300
+D015,hwhite,HR,South-050
+D016,vlee,IT,West-200
+D017,smartinez,Marketing,East-170
+D018,jkim,Sales,North-110
+D019,aadam,Finance,Central-300
+D020,ebrown,HR,South-050

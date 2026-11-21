@@ -1,4 +1,4 @@
-## 6. Data Dictionary (Logical Model)
+##  Data Dictionary (Logical Model)
 
 | Entity | Column Name | Key Type | Description / Meaning | Required? | Unique? |
 | :--- | :--- | :---: | :--- | :---: | :---: |
